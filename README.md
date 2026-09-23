@@ -65,32 +65,3 @@ mypy --strict .
 
 This project is licensed under the [MIT License](LICENSE).
 
-```
-
----
-
-### 💻 2. Comandos de Terminal para Subir no GitHub (PC da 42)
-
-Como você está no terminal da 42 (`/home/luafranc/python`), execute a sequência de comandos abaixo:
-
-#### **Passo A: Garantir que você está no diretório correto**
-```bash
-cd /home/luafranc/python
-
-```
-
-#### **Passo B: Criar o arquivo** **.gitignore**
-
-Para evitar subir caches do Python ou pastas temporárias:
-
-```
-cat &lt;&lt; 'EOF' &gt; .gitignore
-.venv/
-env/
-venv/
-__pycache__/
-*.pyc
-.mypy_cache/
-.pytest_cache/
-.DS_Store
-.vscode/
