@@ -23,12 +23,17 @@ All modules strictly adhere to the 42 School evaluation requirements:
 
 | Module | Topic | Key Concepts |
 | :--- | :--- | :--- |
-| **[Module 00](./Module_00)** | **Python Basics** | Environment setup, syntax basics, basic control flow, and functions. |
-| **[Module 01](./Module_01)** | **Object-Oriented Programming** | Classes, instances, encapsulation, inheritance (`super()`), and method overriding. |
-| **[Module 02](./Module_02)** | **Advanced OOP &amp; Error Handling** | Static/Class methods, custom exceptions, decorators, and data validation. |
-| **[Module 03](./Module_03)** | **Data Structures** | Lists, dictionaries, sets (`set`), comprehensions, and data transformations. |
-| **[Module 04](./Module_04)** | **File I/O &amp; Generators** | Context managers (`with`), file streams, custom generators, and exception handling. |
-| **[Module 05](./Module_05)** | **Data Processing &amp; Architecture** | Abstract Base Classes (`ABC`), polymorphic stream processing, and `Protocol` export plugins. |
+| **[Module 00](./Module_00)** | **Python Fundamentals** | Environment setup, syntax basics, expressions, control flow, and simple functions. |
+| **[Module 01](./Module_01)** | **Object-Oriented Systems** | Classes, instances, encapsulation, inheritance (`super()`), and method overriding. |
+| **[Module 02](./Module_02)** | **Data Resiliency &amp; Exceptions** | Resilient pipelines, custom exceptions, `try`/`except`/`finally` blocks, and data validation. |
+| **[Module 03](./Module_03)** | **Collections &amp; Data Structures** | Lists, dictionaries, sets (`set`), tuples, comprehensions, and generators. |
+| **[Module 04](./Module_04)** | **File I/O &amp; Stream Management** | Context managers (`with`), file streams, and standard streams (`sys.stdin`, `sys.stdout`, `sys.stderr`). |
+| **[Module 05](./Module_05)** | **Polymorphic Data Streams** | Abstract Base Classes (`ABC`), polymorphic streams, `Protocol` (Duck Typing), and export plugins. |
+| **[Module 06](./Module_06)** | **Import Mysteries &amp; Packages** | Package initialization (`__init__.py`), import pathways, absolute vs relative imports, and circular dependencies. |
+| **[Module 07](./Module_07)** | **Design Patterns &amp; Architecture** | Abstract factories, card architecture, capability mixins, and strategy patterns. |
+| **[Module 08](./Module_08)** | **Virtual Environments &amp; Data Tools** | Virtual environments (`venv`), dependency managers (`pip`, Poetry), `.env` handling, and data analysis (`pandas`, `numpy`, `matplotlib`). |
+| **[Module 09](./Module_09)** | **Pydantic Models &amp; Validation** | Pydantic v2 schemas (`BaseModel`), field constraints (`Field`), `@model_validator` decorators, and nested models. |
+| **[Module 10](./Module_10)** | **Functional Programming** | Anonymous functions (`lambda`), higher-order functions (`Callable`), closures, `functools` (`reduce`, `lru_cache`), and custom decorators. |
 
 ---
 
@@ -63,5 +68,7 @@ mypy --strict .
 
 ## 📜 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE). EOF
+
+---
 
